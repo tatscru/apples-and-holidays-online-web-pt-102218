@@ -54,7 +54,7 @@ def all_winter_holiday_supplies(holiday_hash)
   end 
   array.flatten
   # return an array of all of the supplies that are used in the winter season-- hint you need to return a new array that has not been built yet. 
-
+# need to put .flatten on the array so it can output correctly
 end
 
 def all_supplies_in_holidays(holiday_hash)

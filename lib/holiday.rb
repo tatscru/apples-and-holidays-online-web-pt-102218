@@ -51,6 +51,7 @@ end
 def all_winter_holiday_supplies(holiday_hash)
   array = holiday_hash[:winter].collect do |holiday, supply| 
     supply
+  end 
   # return an array of all of the supplies that are used in the winter season-- hint you need to return a new array that has not been built yet. 
 
 end

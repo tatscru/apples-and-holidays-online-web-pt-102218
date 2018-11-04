@@ -43,8 +43,8 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_hash[season][holiday_name] = supply_array
+  # you do not put a : because you are adding a new item 
   holiday_hash
-  # holiday_hash[:season][:name_of_season]= supply_hash
  
 end
 
